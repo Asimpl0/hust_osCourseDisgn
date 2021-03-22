@@ -1,0 +1,1 @@
+cmd_/home/jan/code/OS/lab3/mydev.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/jan/code/OS/lab3/mydev.ko /home/jan/code/OS/lab3/mydev.o /home/jan/code/OS/lab3/mydev.mod.o;  true
